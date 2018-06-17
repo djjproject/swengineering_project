@@ -7,7 +7,10 @@ import java.awt.event.ItemListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-public class AlertSystemController implements ActionListener, WindowListener, ItemListener
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+
+public class AlertSystemController implements ActionListener, WindowListener, ItemListener, ListSelectionListener
 {	
 	private AlertSystemView view;
 	private AlertSystemModel model;
@@ -60,5 +63,12 @@ public class AlertSystemController implements ActionListener, WindowListener, It
 
 	public void setView(AlertSystemView view) {
 		this.view = view;
+	}
+
+	@Override
+	public void valueChanged(ListSelectionEvent e) {
+		// TODO Auto-generated method stub
+		
+		
 	}
 }

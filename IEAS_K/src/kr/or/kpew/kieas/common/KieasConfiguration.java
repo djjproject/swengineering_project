@@ -20,7 +20,7 @@ public class KieasConfiguration
 	
 	public static class KieasAddress 
 	{
-		public static final String ACTIVEMQ_SERVER_IP_LOCAL = "tcp://localhost:61616";
+		public static final String ACTIVEMQ_SERVER_IP_LOCAL = "tcp://djjproject.com:61616";
 //		public static final String ACTIVEMQ_SERVER_IP_LOCAL = "tcp://127.0.0.1:61616";
 		
 		public final static String GATEWAY_ID = "maingateway@korea.kr";

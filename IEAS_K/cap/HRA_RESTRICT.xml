@@ -37,7 +37,7 @@ o 예상 강수량(현재~[Tense]): [Value]mm
 o 총 예상 강수량: [Value]mm
 	]]>
     </description>
-    <web>http://www.kma.go.kr/weather/warning/status.jsp</web>
+    <web>http://download.djjproject.com/temp/alert.mp4</web>
     <contact>전국 국번없이 131</contact>
     <resource>
       <resourceDesc>지도</resourceDesc>
